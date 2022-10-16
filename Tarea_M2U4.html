@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tarea_M2U4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body style="height: 1920px;">
+    <h1 style=text-align:center;>Tarea: Modulo 2 unidad 4 </h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <h2 style="padding: 1% 0 0 1% ;text-align: center;">Tipo de contenedores</h2>
+
+        <div class="container-sm" style="background-color:red">container-sm - 100% wide until small breakpoint</div>
+        <div class="container-md" style="background-color:rgb(0, 17, 255)">container-md -100% wide until medium breakpoint</div>
+        <div class="container-lg" style="background-color:rgb(102, 255, 0)">container-lg - 100% wide until large breakpoint</div>
+        <div class="container-xl" style="background-color:rgba(44, 119, 138, 0.863)">container-xl 100% wide until extra large breakpoint</div>
+        <div class="container-xxl" style="background-color:rgb(255, 0, 140)">container-xxl 100% wide until extra extra large breakpoint</div>
+        <div class="container-fluid" style="background-color:rgb(218, 230, 61)">container-fluid 100% al all breakpoints</div>
+    <h2 style="padding: 1% 0 0 1% ;">Ejemplo de Columnas </h2>
+    <div class="container-fluid">
+        <div class="row justify-content-md-center">
+            <div class="col-md-auto" style="border: solid;">
+                Variable
+            </div>
+            <div class="col-md-auto" style="border: solid;">
+              Variable con
+            </div>
+            <div class="col-md-auto" style="border: solid;">
+                Variable con el contenido
+            </div>
+          </div>
+          <div class="container text-center" >
+            <div class="row justify-content-evenly" style="border: solid; border-color: brown;">
+                <div class="col-4" style="border: solid; border-color: red;">
+                One of two columns
+                </div>
+                <div class="col-4" style="border: solid; border-color: blue;">
+                One of two columns
+                </div>
+            </div>
+        </div>
+          </div>
+        <div>
+          <h2 style="padding: 1% 0 0 1% ;text-align: center;">Ejemplo de Tipografias </h2>
+            <h1 class="display-1">Display 1</h1>
+            <h1 class="display-2">Display 2</h1>
+            <h1 class="display-3">Display 3</h1>
+            <h1 class="display-4">Display 4</h1>
+            <h1 class="display-5">Display 5</h1>
+            <h1 class="display-6">Display 6</h1>
+        </div>
+        <div style="padding: 1% 0 0 1% ;">
+            <h3>
+                Título
+                <small class="text-muted">con breve descripción, ó subtitulo</small>
+              </h3>
+            </div>
+        <h2 style="padding: 1% 0 0 1% ;">Ejemplo de Imagen </h2>
+        <div>
+        <img src="img1.png" class="img-fluid">   
+        </div>
+        <h2 style="padding: 1% 0 0 1% ;">Ejemplo de Tabla </h2>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">Mail</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Pedro</td>
+                <td>Gomez</td>
+                <td>pgomez@mail.com</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Carlos</td>
+                <td>Gonzalez</td>
+                <td>cgonzalez@mail.com</td>
+              </tr>
+              <tr>
+                <td colspan="4" style="text-align: center ;">Fin(ocupa todo el ancho de la tabla)</td>
+              </tr>
+            </tbody>
+          </table>
+          <h2 style="padding: 1% 0 0 1% ;text-align: center;">Ejemplo de Tabla oscura </h2>
+
+          <table class="table table-dark table-hover">
+            <thead>
+              <tr class="table-dark">
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">Mail</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-dark">
+                <th scope="row">1</th>
+                <td>Pedro</td>
+                <td>Gomez</td>
+                <td>pgomez@mail.com</td>
+              </tr>
+              <tr class="table-dark">
+                <th scope="row">2</th>
+                <td>Carlos</td>
+                <td>Gonzalez</td>
+                <td>cgonzalez@mail.com</td>
+              </tr>
+              <tr class="table-dark">
+                <td colspan="4" style="text-align: center ;">Fin(ocupa todo el ancho de la tabla)</td>
+              </tr>
+            </tbody>
+          </table>
+          <h2 style="padding: 1% 0 0 1% ;text-align: center;">Ejemplo de Barra de navegacion </h2>
+
+          <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Ejemplo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Lista
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Accion 1 </a></li>
+                      <li><a class="dropdown-item" href="#">Accion 2</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Accion 3</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    <h2 style="padding: 1% 0 0 1% ;text-align: center;">Ejemplo de Formulario </h2>
+    <div class="border border-primary" style="padding: 1%";>
+        <form class="row gy-2 gx-3 align-items-center">
+            <div class="col-auto">
+              <label class="visually-hidden" for="autoSizingInput">Nombre</label>
+              <input type="text" class="form-control" id="autoSizingInput" placeholder="Nombre y Apellido (sin espacios)">
+            </div>
+            <div class="col-auto">
+              <label class="visually-hidden" for="autoSizingInputGroup">Empresa</label>
+              <div class="input-group">
+                <div class="input-group-text">@</div>
+                <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Empresa">
+              </div>
+            </div>
+            <div class="col-auto">
+              <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+              <select class="form-select" id="autoSizingSelect">
+                <option selected>Puesto...</option>
+                <option value="1">Analyst</option>
+                <option value="2">Head</option>
+                <option value="3">Manager</option>
+              </select>
+            </div>
+            <div class="col-auto">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+                <label class="form-check-label" for="autoSizingCheck">
+                  Recordarme
+                </label>
+              </div>
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form> 
+        </div> 
+
+        <h2 style="padding: 1% 0 0 1% ;text-align: center;">Ejemplo de Colores </h2>
+            <div class="text-primary">This is default primary text</div>
+            <div class="text-danger text-opacity-75">This is 75% opacity primary text</div>
+            <div class="text-dark text-opacity-50">This is 50% opacity primary text</div>
+            <div class="text-success text-opacity-25">This is 25% opacity primary text</div>
+
+          <h2 style="padding: 1% 0 0 1% ;text-align: center;">Ejemplo de Flex </h2>
+          <h4 style="padding: 1% 0 0 1% ;text-align: left;">Juntos al inicio </h4>
+          <div class="d-flex justify-content-start" style ="background: rgb(214, 152, 152);">
+            <div style="background: gray; border: solid"> Item Flex 1</div>
+            <div style="background: gray; border: solid""> Item Flex 2</div>
+            <div style="background: gray; border: solid""> Item Flex 3</div>
+          </div>
+          
+          <h4 style="padding: 1% 0 0 1% ;text-align: left;">Juntos al medio </h4>
+          <div class="d-flex justify-content-center"style ="background: rgb(214, 152, 152)";>
+            <div style="background: gray; border: solid"> Item Flex 1</div>
+            <div style="background: gray; border: solid""> Item Flex 2</div>
+            <div style="background: gray; border: solid""> Item Flex 3</div>
+          </div>
+          
+          <h4 style="padding: 1% 0 0 1% ;text-align: left;" >Separados </h4>
+          <div class="d-flex justify-content-between" style ="background: rgb(214, 152, 152);">
+            <div style="background: gray; border: solid"> Item Flex 1</div>
+            <div style="background: gray; border: solid""> Item Flex 2</div>
+            <div style="background: gray; border: solid""> Item Flex 3</div>
+          </div>
+
+          <h2 style="padding: 1% 0 0 1% ;text-align: center;">Ejemplo de Float </h2>
+
+          <div class="float-start" style="border: solid;">Float al comienzo
+          </div><br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+
+          <h2 style="padding: 1% 0 0 1% ;text-align: center;">Ejemplo de Float </h2>
+          <div class="float-end" style="border:solid;">Float end on all viewport sizes</div><br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+
+          <h2 style="padding: 1% 0 0 1% ;text-align: center;">Ejemplo de Text wrapping </h2>
+          <div class="badge bg-dark text-wrap" style="width: 200px;">
+            Texto atrapado.
+          </div>
+          <h4 style="padding: 1% 0 0 1% ;text-align: left;">Ejemplo de cortar el texto según tamañ de pantalla </h4>
+          <p class="text-break">Loremipsumdolorsitadipisicing,dotemporincididuntutlaboreetmagnaaliqua.Utenimadminimveniam,quisnostrudexercitationullamcolaborisnisiutexeacommodoconsequat.Duisauteiruredolorinreprehenderitinvoluptatevelitesse</p>
+
+  </body>
+
+</html>
